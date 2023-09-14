@@ -1,12 +1,10 @@
 import { useEffect, useState } from "react";
 import useFetch from "../../../hooks/useFetch";
 import { useSelector } from "react-redux";
-import imdbImg from "../../../assets/nav/Imdb.svg";
-import rotImg from "../../../assets/nav/Rot.svg";
-import PlayImg from "../../../assets/nav/Play.svg";
 
+import PlayImg from "../../../assets/nav/Play.svg";
+import Ratings from "../../../components/sub-components/Ratings";
 import { mapVoteCount, voteAverage } from "../../../utils/util";
-import Ratings from "../../../components/sub-components/ratings";
 import ImageLoader from "../../../components/imageLoader/ImageLoader";
 import BannerLoader from "./BannerLoader";
 
