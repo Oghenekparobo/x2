@@ -2,12 +2,13 @@ import heart from "../../assets/nav/Heart.svg";
 import PosterFallback from "../../assets/nav/no-poster.png";
 import { useSelector } from "react-redux";
 import dayjs from "dayjs";
-import Ratings from "../sub-components/ratings";
+
 import { mapVoteCount } from "../../utils/util";
 import { Link } from "react-router-dom";
 import Genres from "../sub-components/Genres";
 import "react-toastify/dist/ReactToastify.css";
 import { toast } from "react-toastify";
+import Ratings from "../sub-components/Ratings";
 
 const Cards = ({ data }) => {
   const { url } = useSelector((store) => store.home);
