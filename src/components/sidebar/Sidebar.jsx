@@ -1,7 +1,7 @@
 import logo from "../../assets/sidebar/Logo.svg";
 import home from "../../assets/sidebar/Home.svg";
 import movies from "../../assets/sidebar/MovieProjector.svg";
-import tv from "../../assets/sidebar/TvShow.svg";
+import tv from "../../assets/sidebar/TVShow.svg";
 import upcoming from "../../assets/sidebar/Calendar.svg";
 import { Link } from "react-router-dom";
 
