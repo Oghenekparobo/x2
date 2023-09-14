@@ -57,6 +57,7 @@ This project was developed using the following technologies:
 - React
 - Tailwind CSS
 - Vite
+- Redux tookit
 
 ## Screenshot
 
