@@ -1,5 +1,7 @@
 # Movie Discovery Web Application
 
+![Screenshot](src/assets/x2.PNG)
+
 ## Table of Contents
 
 - [Objective](#objective)
@@ -58,8 +60,6 @@ This project was developed using the following technologies:
 
 ## Screenshot
 
-![Screenshot](src/assets/x2.PNG)
-
 ## Getting Started
 
 Follow these instructions to get a copy of the project up and running on your local machine.
@@ -81,7 +81,8 @@ Before you begin, ensure you have the following installed:
 
 2. Navigate to the project directory:
 
-```cd x2
+```
+cd x2
 
 ```
 
