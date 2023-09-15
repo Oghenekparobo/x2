@@ -49,7 +49,7 @@ const Cards = ({ data }) => {
               key={item.id}
             >
               <div className="poster cursor-pointer">
-                <Link to={`/movie/${item.id}`}>
+                <Link to={`/movies/${item.id}`}>
                   <img
                     src={posterUrl}
                     alt="poster"
@@ -68,7 +68,7 @@ const Cards = ({ data }) => {
                 data-testid="movie-release-date"
               >{`USA, ${year}`}</div>
               <div className="title py-2">
-                <Link to={`/movie/${item.id}`}>
+                <Link to={`/movies/${item.id}`}>
                   <p data-testid="movie-title" className="font-bold">
                     {item.title}
                   </p>

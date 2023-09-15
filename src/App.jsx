@@ -55,7 +55,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/search/:query" element={<SearchPage />} />
-        <Route path="/movie/:id" element={<Details />} />
+        <Route path="/movies/:id" element={<Details />} />
       </Routes>
     </BrowserRouter>
   );

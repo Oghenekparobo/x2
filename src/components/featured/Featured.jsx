@@ -6,9 +6,7 @@ import LoadingCards from "./LoadingCards";
 import MovieCard from "../movieCard/MovieCard";
 
 const Featured = () => {
-  const [endpoint, setEndpoint] = useState("movie");
-
-  const { data, loading } = useFetch(`/${endpoint}/popular`);
+  const { data, loading } = useFetch(`/movie/top_rated`);
 
   return (
     <section className="featured-movies mx-auto px-12 my-14">
